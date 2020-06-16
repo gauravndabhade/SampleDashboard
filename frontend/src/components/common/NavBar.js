@@ -20,11 +20,12 @@ export default class NavBar extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/dashboard">Dashboad</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
                     <Navbar.Text className="justify-content-end">
-                        Signed in as: <a href="#login">Gaurav Dabhade</a>
+                        Signed in as: <a href="#login">James Bond</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Navbar>

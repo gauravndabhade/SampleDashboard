@@ -2,7 +2,7 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { connect } from "react-redux";
 import axios from "axios";
-import { SET_GRAPH_DETAILS } from "../actions/types";
+import { SET_GRAPH_DETAILS } from "../../actions/types";
 
 
 class App extends React.Component {
